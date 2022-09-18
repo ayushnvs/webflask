@@ -22,41 +22,42 @@
 		</style>
 	</head>
 	<body>
+		{% include 'navbar.html' %}
 		<div class='container'>
-		<h1 class='text-center mt-2 mb-4'><b>Welcome to Webflask</b></h1>
-		<img class='img-fluid' src='/static/banner.jpg' id='banner'>
-		<h2 class='text-center mt-2 mb-4'>About Webflask</h2>
-		<p class='lead text-justify'>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Faucibus interdum posuere lorem ipsum. Vel eros donec ac odio tempor orci dapibus ultrices in. Elit scelerisque mauris pellentesque pulvinar. Bibendum neque egestas congue quisque egestas diam in. Ultrices eros in cursus turpis massa. Elementum sagittis vitae et leo duis ut diam quam nulla. Est ante in nibh mauris cursus mattis molestie. Dui sapien eget mi proin sed libero. Tortor at auctor urna nunc id cursus metus aliquam eleifend. Fermentum dui faucibus in ornare quam viverra. A arcu cursus vitae congue mauris rhoncus. Mauris a diam maecenas sed. Tortor aliquam nulla facilisi cras fermentum odio eu. Cum sociis natoque penatibus et magnis dis parturient montes nascetur. Dui nunc mattis enim ut. Quis hendrerit dolor magna eget est lorem ipsum.
-		</p>
-		<h2 class='text-center mt-2 mb-4'>Flask Products</h2>
-		<div class='row'>
-			<div class='col text-center'>
-				<div>
-					<img class='flask-prod' src='static/flask-1.jpg'>
+			<h1 class='text-center mt-2 mb-4'><b>Welcome to Webflask</b></h1>
+			<img class='img-fluid' src='/static/banner.jpg' id='banner'>
+			<h2 class='text-center mt-2 mb-4'>About Webflask</h2>
+			<p class='lead text-justify'>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Faucibus interdum posuere lorem ipsum. Vel eros donec ac odio tempor orci dapibus ultrices in. Elit scelerisque mauris pellentesque pulvinar. Bibendum neque egestas congue quisque egestas diam in. Ultrices eros in cursus turpis massa. Elementum sagittis vitae et leo duis ut diam quam nulla. Est ante in nibh mauris cursus mattis molestie. Dui sapien eget mi proin sed libero. Tortor at auctor urna nunc id cursus metus aliquam eleifend. Fermentum dui faucibus in ornare quam viverra. A arcu cursus vitae congue mauris rhoncus. Mauris a diam maecenas sed. Tortor aliquam nulla facilisi cras fermentum odio eu. Cum sociis natoque penatibus et magnis dis parturient montes nascetur. Dui nunc mattis enim ut. Quis hendrerit dolor magna eget est lorem ipsum.
+			</p>
+			<h2 class='text-center mt-2 mb-4'>Flask Products</h2>
+			<div class='row'>
+				<div class='col text-center'>
+					<div>
+						<img class='flask-prod' src='static/flask-1.jpg'>
+					</div>
+					<div class='mt-2 mb-4'>
+						<a href="/pages/resume" type="button" class="btn btn-outline-primary">View</a>
+					</div>
 				</div>
-				<div class='mt-2 mb-4'>
-					<button type="button" class="btn btn-outline-primary">View</button>
+				<div class='col text-center'>
+					<div>
+						<img class='flask-prod' src='static/flask-3.jpg'>
+					</div>
+					<div class='mt-2 mb-4'>
+						<a href="/pages/resume" type="button" class="btn btn-outline-primary">View</a>
+					</div>
 				</div>
-			</div>
-			<div class='col text-center'>
-				<div>
-					<img class='flask-prod' src='static/flask-3.jpg'>
-				</div>
-				<div class='mt-2 mb-4'>
-					<button type="button" class="btn btn-outline-primary">View</button>
-				</div>
-			</div>
-			<div class='col text-center'>
-				<div>
-					<img class='flask-prod' src='static/flask-2.jpg'>
-				</div>
-				<div class='mt-2 mb-4'>
-					<button type="button" class="btn btn-outline-primary">View</button>
+				<div class='col text-center'>
+					<div>
+						<img class='flask-prod' src='static/flask-2.jpg'>
+					</div>
+					<div class='mt-2 mb-4'>
+						<a href="/pages/resume" type="button" class="btn btn-outline-primary">View</a>
+					</div>
 				</div>
 			</div>
 		</div>
-		<p class='text-center'>Webflask, Copyright 2022</p>
-		</div>
+		{% include 'footer.html' %}
 	</body>
 </html>

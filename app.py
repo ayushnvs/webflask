@@ -8,9 +8,14 @@ def home():
     return render_template('home.html')
 
 
-@app.route('/pages/resume')
-def pages():
-    return render_template('pages/resume/index.html')
+@app.route('/product/resume')
+def resume():
+    return render_template('product/resume/index.html')
+
+
+@app.route('/product/reweb')
+def reweb():
+    return render_template('product/reweb/index.html')
 
 
 if __name__ == '__main__':

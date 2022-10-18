@@ -19,7 +19,75 @@
 				About
 			</a>
 		</div>
+	</nav><!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+	<title>Regular Expressions</title>
+</head>
+<body>
+	<!-- Title Bar -->
+	<nav class="navbar bg-light shadow-sm sticky-top">
+		<div class="container justify-content-center">
+			<a class="navbar-brand" href="#">
+				<img src="https://getbootstrap.com/docs/5.2/assets/brand/bootstrap-logo.svg" alt="Bootstrap" width="30" height="24">
+				ReWeb
+			</a>
+<!-- 			<a class="navbar-brand" href="#">
+				About
+			</a> -->
+		</div>
 	</nav>
+	<main class='container'>
+		<!-- Heading -->
+		<div class="text-center pt-2">
+			<b>Web Regular Expression Page</b>
+		</div>
+		<!-- Input Form -->
+		<div class="input-form">
+			<form action="#" class="regex-content">
+				<div class="regex">
+					<section class="regex-heading">
+						<p class="des">Expression</p>
+						<p class="lan">Javastyle</p>
+					</section>
+					<div><span>\</span><input type="text" placeholder="Enter RegExp" name="regex" value="[A-Za-z\s]+\.[^\?]*" value="^[A-Za-z\s]{3,}[\d?]+"  oninput="matchingGivenRegex()"><span>\</span><span class="flag">g</span></div>
+				</div>
+				<div class="string">
+					<section class="to-match-heading">
+						<p class="des">Texts</p>
+					</section>
+					<textarea class="text-content" type="text" placeholder="Enter your string here!" name="to-match">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum temporibus ex architecto repellendus doloremque neque numquam mollitia repudiandae fugiat? Quae non eos velit porro ratione, facilis quibusdam iste repudiandae! Est!</textarea>
+				</div>
+				<div class="tools">
+					<section class="tools-heading">
+						<p class="des">Tools</p>
+						<p class="fun">Match</p>
+						<p class="fun">Replace</p>
+					</section>
+					<section class="replace-text">$1\n$2</section>
+					<section class="output">
+						<div class="blank">
+							<p class="out"></p>
+						</div>
+					</section>
+				</div>
+			</form>
+		</div>
+	</main>
+	<footer>
+		<!-- Footer -->
+		<div class='copyright'>
+			<a href='https://webflask.ayushvns.repl.co/' style='text-decoration: none;color:black;' target='_blank'>webflask</a> 2022, All rights reserved.
+		</div>
+		<!-- Scripts -->	
+		<style src="style.js"></style>
+	</footer>
+</body>
+</html>
 	<main>
 		<!-- Heading -->
 		<div class="heading"><p class="heading-text">Web Regular Expression Page</p></div>
